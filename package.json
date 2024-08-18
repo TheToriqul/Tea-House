@@ -1,0 +1,14 @@
+{
+  "name": "tea-house",
+  "version": "1.0.0",
+  "description": "Practice Project",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "TheToriqul",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
