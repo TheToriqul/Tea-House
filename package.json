@@ -4,11 +4,13 @@
   "description": "Practice Project",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "deploy": "gh-pages -d dist"
   },
   "author": "TheToriqul",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.4.10"
   }
 }
