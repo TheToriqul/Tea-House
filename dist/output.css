@@ -693,6 +693,14 @@ video {
   display: none;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -795,6 +803,11 @@ video {
 
 .max-w-2xl {
   max-width: 42rem;
+}
+
+.columns-3xs {
+  -moz-columns: 16rem;
+       columns: 16rem;
 }
 
 .grid-cols-1 {
